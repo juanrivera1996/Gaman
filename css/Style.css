@@ -1,0 +1,118 @@
+section{
+    
+}
+
+#Splash{
+    
+    background-color: #7adbde;
+}
+
+#Start{
+    
+}
+
+#btnMatchGame {
+    margin-top: -958px;
+    margin-left: 129px;
+	
+}
+
+#btnMemoryGame {
+    margin-top: -758px;
+    margin-left: 129px;
+}
+
+#btnCredits {
+    margin-top: -558px;
+    margin-left: 129px;
+	
+}
+
+#MatchingGame {
+ background-image:url(../img/parejas/menu/fondo_estrellas_gemelas.png);
+
+}
+
+.btnBack{
+    float: left;
+    position: relative;
+    margin-left: 45px;
+    margin-top: 45px;
+   
+	
+}
+
+.btnHome {
+    float: right;
+    position: relative;
+    margin-right: 45px;
+    margin-top: 45px;
+    
+}
+
+#btnExplainMatch {
+    margin-top: 550px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    
+}
+
+.btnMatchMenu {
+    margin-top: 5px;
+    margin-left: 200px;
+    
+}
+
+#btnLevelRayoMatch {
+    
+
+}
+
+#btnLevelEvakyMatch {
+  
+	
+}
+
+#btnLevelAracneMatch {
+   
+}
+
+#btnLevelSocratesMatch {
+    margin-bottom: 140px;
+
+}
+
+#MatchLevel1{
+    background-image: url(../img/fondo_color.png);
+}
+#card1{
+    margin-top: 145px;
+    margin-left: -126px;
+    
+}
+
+#card2 {
+    margin-left: 539px;
+    margin-top: -512px;
+	
+}
+.frontCard {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+	
+}
+#MatchLevel2 {
+	background-image: url(../img/fondo_color.png);
+}
+#MatchLevel3{
+    background-image: url(../img/fondo_color.png);
+}
+#MatchLevel4 {
+    background-image: url(../img/fondo_color.png);
+	
+}
+#MatchLevel5 {
+    background-image: url(../img/fondo_color.png);
+	
+}
