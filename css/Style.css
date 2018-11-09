@@ -1,11 +1,14 @@
-section{
-    
-}
-
 #Splash{
     
     background-color: #7adbde;
+    display:block;
 }
+section{
+    /*display:none;*/
+
+}
+
+
 
 #Start{
     
@@ -51,7 +54,7 @@ section{
 }
 
 #btnExplainMatch {
-    margin-top: 550px;
+    margin-top: 435px;
     margin-left: 200px;
     margin-bottom: 100px;
     
@@ -84,9 +87,10 @@ section{
 
 #MatchLevel1{
     background-image: url(../img/fondo_color.png);
+    height: 1920px;
 }
 #card1{
-    margin-top: 145px;
+    margin-top: 242px;
     margin-left: -126px;
     
 }
@@ -100,19 +104,112 @@ section{
     position: relative;
     margin-top: 10px;
     margin-left: 10px;
+/*codigo efectos juego */	
+}
+.card-box{
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .5s;
+    
+}
+.card-box:active {
+    transform: scale(0.97);
+    transition: transform .2s;
+    
 	
 }
+.card-box.flip {
+  transform: rotateY(180deg);
+}
+.fluid-content {
+    perspective: 1000px;
+}
+
+/* fin codigo efectos juego */	
 #MatchLevel2 {
 	background-image: url(../img/fondo_color.png);
+    height: 1920px;
 }
 #MatchLevel3{
     background-image: url(../img/fondo_color.png);
+    height: 1920px;
+
 }
 #MatchLevel4 {
     background-image: url(../img/fondo_color.png);
+    height: 1920px;
+
 	
 }
 #MatchLevel5 {
     background-image: url(../img/fondo_color.png);
+    height: 1920px;
+
 	
+}
+.frontCard2 {
+    width: 33%;
+}
+
+#card1level2 {
+    margin-top: 378px;
+    margin-left: -133px;
+}
+#card3level2 {
+    margin-left: 708px;
+    margin-top: -351px;
+}
+
+#card8level2 {
+    margin-left: 356px;
+}
+
+.frontCard3 {
+    width: 33%;
+}
+
+#card1level3 {
+	margin-top: 279px;
+    margin-left: -134px;
+}
+
+#card3level3 {
+	margin-left: 705px;
+    margin-top: -352px;
+}
+
+#card10level3 {
+    margin-left: 356px
+}
+
+.frontCard4 {
+    width: 33%;
+}
+
+#card1level4 {
+	margin-top: 279px;
+    margin-left: -134px;
+}
+
+#card3level4 {
+	margin-left: 705px;
+    margin-top: -352px;
+}
+
+.frontCard5 {
+    width: 33%;
+}
+
+#card1level5 {
+	margin-top: 138px;
+    margin-left: -134px;
+}
+
+#card3level5 {
+	margin-left: 705px;
+    margin-top: -352px;
+}
+
+#card14level5 {
+    margin-left: 356px
 }
